@@ -1,0 +1,135 @@
+body{
+    background-image: url(../img/1549633171_9f07c2.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.conteiner{
+    color : white;
+}
+.h1{
+    font: small-caps bold 40px/1 sans-serif;
+}
+.p{
+    font: small-caps 26px/1 sans-serif;
+    margin-top: 50px;
+}
+.text{
+    width: 950px;
+    margin: 100px;
+}
+.button button{
+    margin-top: 50px;
+    background: linear-gradient(rgb(188, 20, 20), rgb(178, 26, 26));
+    padding: 25px 20px 25px 20px;
+    font: small-caps bold 32px/1 sans-serif;
+    color: white;
+    border-radius: 8px;
+}
+.preview{
+    margin-top: 50px;
+    display: flex;
+    width: 440px;
+    background-color: rgba(241, 230, 230, .2);
+    border-radius: 5px;
+    padding: 1px 0px 6px 0px;
+}
+.preview img{
+    width: 90px;
+    border-radius:5px 0px 0px 5px ;
+    position: absolute;
+}
+.preview p {
+    font: small-caps 12px/1 sans-serif;
+    margin-left: 60px;
+}
+.blok{
+    z-index: 0;
+
+    border: 20px solid transparent;
+    border-top: 20px solid rgba(48, 46, 46);
+    border-right: 20px solid rgba(48, 46, 46);
+    margin-left: 50px;
+    height: 3%;
+}
+form{
+    display: block;
+}
+input[type="file"]{
+    margin-top: 10px;
+
+}
+input[type="text"] {
+    margin-top: 10px;
+    width: 400px;
+    border: 2px solid rgb(173, 173, 173);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(241, 230, 230, .0);
+}
+.input-file {
+	position: relative;
+	display: inline-block;
+    margin-top: 10px;
+}
+.input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 4px;
+	background-color: #415c91;
+	line-height: 22px;
+	height: 40px;
+    width: 200px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.input-file input[type=file]:focus + span {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.input-file:hover span {
+	background-color: #59be6e;
+}
+.input-file:active span {
+	background-color: #2E703A;
+}
+.input-file input[type=file]:disabled + span {
+	background-color: #eee;
+}
+
+.massage{
+    font: small-caps bold 18px;
+    position: fixed;
+    background-color: whitesmoke;
+    width: 300px;
+    top: 40%;
+    left: 40%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+    border-radius: 5px;
+}
+.massage button{
+    background: linear-gradient(rgb(188, 20, 20), rgb(178, 26, 26));
+    color: white;
+    padding: 5px  10px;
+    border-radius: 5px;
+    border-color: rgb(188, 20, 20);
+}

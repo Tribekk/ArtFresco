@@ -1,0 +1,114 @@
+body{
+    background-image: url(../img/dutchbone-archer-25707.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.conteiner{
+    text-align: center;
+    color: white;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.conteiner h1{
+    font: small-caps bold 40px/1 sans-serif;
+}
+.conteiner p{
+    font: small-caps 26px/1 sans-serif;
+    margin-top: 50px;
+}
+.content{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 950px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border{
+    border-radius: 10px;
+    border-top: 10px solid rgb(221, 12, 12);
+}
+.content p{
+    margin-top: 30px;
+    font: small-caps bold 26px/1 sans-serif;
+}
+.selector img{
+    display: block;
+    width: 200px;
+    height: 125px;
+    border-radius: 10px;
+    position: absolute;
+}
+input{
+    position: relative;
+    z-index: 1;
+    margin-top : 115px;
+    margin-left: 0px;
+    cursor: pointer ;
+    width: 30px;
+}
+.selectorp p{
+    font: small-caps 14px/1 sans-serif;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+input[type='radio']::before {
+    content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 3px solid rgb(221, 12, 12); 
+}
+input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(221, 12, 12);
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
+  .content .button{
+    display: block;
+    width: 100px;
+    padding: 10px 5px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128,0.5);
+    color: white;
+    font: small-caps bold 14px/1 sans-serif;
+    border-color: rgba(128, 128, 128,0.5)   ;
+  }
+  .content button{
+    display: none;
+    width: 100px;
+    padding: 10px 5px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgb(221, 12, 12);
+    color: white;
+    font: small-caps bold 14px/1 sans-serif;
+    border-color: rgb(221, 12, 12)  ;
+  }
+  .selector{
+    margin-left: 30px;
+  }
+  th{
+    width: 220px;
+  }
